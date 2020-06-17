@@ -422,6 +422,11 @@ footer a .icons {
   
   position: relative;
 }
+img{
+    position: absolute;
+    top: 50px;
+    left: 40%;
+}
 .sort-house:before {
   content: "";
   position: absolute;
