@@ -53,7 +53,7 @@ footer a .icons {
   transition: 0.3s ease;
 }
 
-/* .gryffindor {
+.gryffindor {
   background: #ad343e;
 }
 .gryffindor .avatar__coat:before, .gryffindor .avatar__coat:after {
@@ -64,9 +64,9 @@ footer a .icons {
 }
 .gryffindor .avatar__tie:before {
   background: linear-gradient(-306deg, #ad343e 5%, #ffbf00 5%, #ffbf00 10%, #ad343e 10%, #ad343e 20%, #ffbf00 20%, #ffbf00 30%, #ad343e 30%, #ad343e 45%, #ffbf00 45%, #ffbf00 55%, #ad343e 55%, #ad343e 65%, #ffbf00 65%, #ffbf00 70%);
-} */
+}
 
-/* .hufflepuff {
+.hufflepuff {
   background: #eab000;
 }
 .hufflepuff .avatar__coat:before, .hufflepuff .avatar__coat:after {
@@ -77,7 +77,7 @@ footer a .icons {
 }
 .hufflepuff .avatar__tie:before {
   background: linear-gradient(-306deg, #eab000 5%, #111 5%, #111 10%, #eab000 10%, #eab000 20%, #111 20%, #111 30%, #eab000 30%, #eab000 45%, #111 45%, #111 55%, #eab000 55%, #eab000 65%, #111 65%, #111 70%);
-} */
+}
 
 .ravenclaw {
   background: #006daf;
@@ -92,7 +92,7 @@ footer a .icons {
   background: linear-gradient(-306deg, #006daf 5%, #c0d8e0 5%, #c0d8e0 10%, #006daf 10%, #006daf 20%, #c0d8e0 20%, #c0d8e0 30%, #006daf 30%, #006daf 45%, #c0d8e0 45%, #c0d8e0 55%, #006daf 55%, #006daf 65%, #c0d8e0 65%, #c0d8e0 70%);
 }
 
-/* .slytherin {
+.slytherin {
   background: green;
 }
 .slytherin .avatar__coat:before, .slytherin .avatar__coat:after {
@@ -103,9 +103,9 @@ footer a .icons {
 }
 .slytherin .avatar__tie:before {
   background: linear-gradient(-306deg, green 5%, #ccc 5%, #ccc 10%, green 10%, green 20%, #ccc 20%, #ccc 30%, green 30%, green 45%, #ccc 45%, #ccc 55%, green 55%, green 65%, #ccc 65%, #ccc 70%);
-} */
+}
 
-/* .slytherin .sorting-hat__answer,
+.slytherin .sorting-hat__answer,
 .slytherin aside.context,
 .slytherin aside.context a,
 .slytherin .sort-house, .slytherin .avatar-gender,
@@ -113,7 +113,7 @@ footer a .icons {
 .gryffindor aside.context,
 .gryffindor aside.context a,
 .gryffindor .sort-house,
-.gryffindor .avatar-gender, */
+.gryffindor .avatar-gender,
 .ravenclaw .sorting-hat__answer,
 .ravenclaw aside.context,
 .ravenclaw aside.context a,
@@ -121,13 +121,13 @@ footer a .icons {
 .ravenclaw .avatar-gender {
   color: #fff;
 }
-/* .slytherin .avatar-gender input:checked + label:after,
-.gryffindor .avatar-gender input:checked + label:after, */
+.slytherin .avatar-gender input:checked + label:after,
+.gryffindor .avatar-gender input:checked + label:after,
 .ravenclaw .avatar-gender input:checked + label:after {
   background: #fff;
 }
-/* .slytherin footer a,
-.gryffindor footer a, */
+.slytherin footer a,
+.gryffindor footer a,
 .ravenclaw footer a {
   border: 1px dashed #fff;
   color: #fff;
@@ -415,24 +415,17 @@ footer a .icons {
   border: 3px solid;
   margin: 40px auto 0;
   background: transparent;
-  font: 25px "Lobster Two", cursive;
+  font: 35px "Lobster Two", cursive;
   padding: 8px 20px;
   cursor: pointer;
   width: 180px;
-  
   position: relative;
-}
-img{
-    width: 20%;
-    position: absolute;
-    top: 5%;
-    left: 40%;
 }
 .sort-house:before {
   content: "";
   position: absolute;
   width: 166px;
-  height: 43px;
+  height: 52px;
   left: 2px;
   top: 2px;
   border: 2px solid;
